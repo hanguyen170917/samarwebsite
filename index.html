@@ -553,28 +553,6 @@
           <h1>What Our Clients Say's</h1>
         </div>
         <div class="testimonial__content">
-          <div class="slider-for">
-            <div class="item">
-              <img src="./images/pic3_3.jpg" alt="" />
-              <p></p>
-              <p></p>
-            </div>
-            <div class="item">
-              <img src="./images/pic3_3.jpg" alt="" />
-              <p></p>
-              <p></p>
-            </div>
-            <div class="item">
-              <img src="./images/pic3_3.jpg" alt="" />
-              <p></p>
-              <p></p>
-            </div>
-            <div class="item">
-              <img src="./images/pic3_3.jpg" alt="" />
-              <p></p>
-              <p></p>
-            </div>
-          </div>
           <div class="slider-nav">
             <div class="item">
               <i class="fa fa-quote-left"></i>
@@ -1011,44 +989,19 @@
     <!-- slick -->
     <script type="text/javascript" src="./libs/slick/slick.min.js"></script>
 
-    <script>
-      var testimonialThumbs = new Swiper(".slider-for", {
-        spaceBetween: 10,
-        slidesPerView: 1,
-        centeredSlides: true,
-        freeMode: true,
-        autoplay: true,
-        loop: true,
-        speed: 3000,
-      });
-      var testimonialContent = new Swiper(".slider-nav", {
-        spaceBetween: 10,
-        autoplay: true,
-        loop: true,
-        speed: 3000,
-        thumbs: {
-          swiper: testimonialThumbs,
-        },
-        pagination: {
-          el: ".slick-dots",
-          clickable: true,
-        },
-      });
-    </script>
-
     <!-- Testimonial slick -->
-    <!-- <script>
+    <script>
       $(document).ready(function () {
         $(".slider-nav").slick({
           dots: true,
           slidesToShow: 1,
           slidesToScroll: 1,
           autoplay: true,
-          autoplaySpeed: 4000,
+          autoplaySpeed: 5000,
           arrows: false,
         });
       });
-    </script> -->
+    </script>
 
     <!-- our blog slick -->
     <script>
